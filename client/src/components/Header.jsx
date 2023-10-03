@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className="bg-stone-200 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
-        <Link to="/">
+        <Link to={"/"}>
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-stone-500">Sahajanand</span>
             <span className="text-stone-700">Estate</span>
@@ -20,17 +20,17 @@ export default function Header() {
           <FaSearch className="text-stone-600" />
         </form>
         <ul className="flex gap-4">
-          <Link to="/">
+          <Link to={"/"}>
             <li className="hidden sm:inline text-stone-700 hover:underline">
               Home
             </li>
           </Link>
-          <Link to="/about">
+          <Link to={"/about"}>
             <li className="hidden sm:inline text-stone-700 hover:underline">
               About
             </li>
           </Link>
-          <Link to="/sign-in">
+          <Link to={"/sign-in"}>
             <li className="sm:inline text-stone-700 hover:underline">
               Sign in
             </li>
